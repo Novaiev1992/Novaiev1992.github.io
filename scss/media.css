@@ -1,0 +1,556 @@
+@media screen and (min-width: 1401px) {
+  .menu li:last-child {
+    display: none;
+  }
+
+  .gamburger {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: none;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 990px;
+  }
+
+  .menu li:last-child {
+    display: none;
+  }
+
+  .gamburger {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .klex .text_container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .klex .second {
+    width: 37%;
+  }
+
+  .content .grafic #ddd {
+    position: absolute;
+    left: 320px;
+    bottom: -50px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .container {
+    width: 730px;
+  }
+
+  .menu li:last-child {
+    display: none;
+  }
+
+  .gamburger {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .klex .text_container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .klex .grafic {
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+  .klex .grafic #group {
+    margin-left: 0px;
+  }
+  .klex .grafic #solo {
+    margin-left: 265px;
+  }
+
+  .describe .grid_table {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-columns: 45% 45%;
+    grid-template-areas: "head head" "first second" "third four" "five six";
+    row-gap: 30px;
+  }
+
+  .content .klex {
+    margin-top: 0px;
+  }
+  .content .klex .second {
+    margin-top: 0px;
+  }
+  .content .klex .grafic #ddd {
+    position: absolute;
+    left: 245px;
+    bottom: -250px;
+  }
+  .content .klex .grafic #arrow {
+    margin-top: 0px;
+  }
+  .content .klex .grafic #group {
+    margin-top: 25px;
+  }
+  .content .klex .grafic #solo {
+    margin-top: -107px;
+  }
+
+  .simple {
+    margin-top: 200px;
+  }
+
+  .map_background {
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: -300px;
+    margin-bottom: 200px;
+  }
+
+  .invest .klex {
+    margin-top: 450px;
+  }
+  .invest .klex .second {
+    width: 100%;
+    margin: 50px 0px;
+  }
+  .invest .klex .grafic #arrow {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .invest .klex .grafic #month {
+    margin-left: 36px;
+    margin-top: 0px;
+  }
+  .invest .klex .grafic .solo {
+    margin-top: -107px;
+    border-radius: 10px;
+    margin-left: 375px;
+  }
+
+  .help .klex .grafic {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+  .help .klex .grafic #bitmap {
+    margin-right: 10px;
+    margin-left: auto;
+  }
+  .help .klex .second {
+    width: 40%;
+    margin-left: 0px;
+  }
+  .help .klex .second .text {
+    margin-top: -700px;
+    margin-left: 0px;
+  }
+  .help .klex .second .features {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block .container .blue-block {
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .lines_background {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .general_footer .general-footer_block_with_back {
+    margin-top: 100px;
+  }
+  .general_footer .general-footer_block_with_back .blocks_bottom {
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 568px;
+  }
+
+  header {
+    padding-top: 20px;
+  }
+  header .nav .menu {
+    display: none;
+  }
+  header .sign {
+    flex-direction: column;
+    gap: 5px;
+  }
+  header .sign .sign_in {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header .sign .sign_out {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header .gamburger {
+    border: none;
+    background: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: block;
+  }
+  header .nav .show-menu {
+    z-index: 2;
+    display: block;
+    background-color: #5f537a;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  header .nav .show-menu li {
+    margin: 20px;
+  }
+  header .nav .show-menu li a {
+    font-size: 24px;
+  }
+  header .nav .show-menu li:last-child {
+    display: block;
+  }
+  header .nav .show-menu li:last-child .exit_gamburger {
+    border: none;
+    background: none;
+  }
+  header .nav .show-menu li:last-child .exit_gamburger img {
+    width: 50px;
+    height: 50px;
+  }
+
+  footer .companies {
+    display: block;
+  }
+
+  .first {
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+
+  .describe .grid_table {
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+
+  .content .klex {
+    margin-top: 20px;
+  }
+  .content .klex .text_container {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .content .klex .runner {
+    width: 568px;
+    height: auto;
+  }
+  .content .klex .second {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+  .content .klex .grafic #group {
+    margin-left: 20px;
+  }
+  .content .klex .grafic #solo {
+    display: none;
+    margin-left: 0px;
+  }
+  .content .klex .grafic #ddd {
+    left: 155px;
+  }
+
+  .simple .simple_box {
+    width: calc(100% - 10% - 20px);
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+
+  .create .create_box {
+    width: 100%;
+  }
+
+  .invest .klex {
+    margin-bottom: 100px;
+  }
+  .invest .klex .second {
+    margin-left: 50px;
+    margin-right: auto;
+    width: 80%;
+  }
+  .invest .klex .grafic #arrow {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .invest .klex .grafic #month {
+    margin-left: -30px;
+    margin-top: 0px;
+    z-index: 1;
+  }
+  .invest .klex .grafic .solo {
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: -1;
+  }
+
+  .block .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .block .container .blue-block {
+    width: 90%;
+    padding-bottom: 50px;
+    border-radius: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 5px;
+  }
+
+  .help .klex .grafic #bitmap {
+    margin-left: 0px;
+    display: none;
+  }
+  .help .klex .second {
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+  .help .klex .second .text {
+    margin-top: -150px;
+  }
+  .help .klex .second .text h1 {
+    text-align: center;
+  }
+  .help .klex .second .features {
+    flex-direction: column;
+  }
+
+  .general_footer .general-footer_block_with_back {
+    margin-top: 80px;
+  }
+  .general_footer .general-footer_block_with_back .ARKshakir {
+    margin-bottom: 50px;
+  }
+  .general_footer .general-footer_block_with_back .ARKshakir #footer {
+    margin-left: 20px;
+  }
+  .general_footer .general-footer_block_with_back .ARKshakir .social_icons {
+    margin-right: 10%;
+  }
+  .general_footer .general-footer_block_with_back .blocks_bottom {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+
+  header {
+    padding-top: 20px;
+  }
+  header .nav .menu {
+    flex-direction: column;
+    display: none;
+  }
+  header .sign {
+    flex-direction: column;
+    gap: 5px;
+  }
+  header .sign .sign_in {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header .sign .sign_out {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header .nav .show-menu {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  header .nav .show-menu li {
+    margin: 20px;
+  }
+
+  .klex {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+  .klex .text_container {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .klex .runner {
+    width: 320px;
+    height: auto;
+  }
+  .klex .second {
+    margin: 0px;
+    margin-top: 50px;
+    width: 95%;
+  }
+  .klex .second .sign_out {
+    margin-left: 130px;
+  }
+  .klex .grafic {
+    margin-left: 0px;
+    width: 90%;
+    margin-bottom: 80px;
+  }
+  .klex .grafic #group {
+    margin-top: 0px;
+    width: 320px;
+    height: 300px;
+    margin-left: 20px;
+  }
+  .klex .grafic #arrow {
+    margin-left: 60px;
+    margin-top: 550px;
+    visibility: hidden;
+  }
+  .klex .grafic #solo {
+    width: 300px;
+    margin: 0px;
+    margin-top: 280px;
+    visibility: hidden;
+  }
+
+  footer .companies {
+    margin-top: 0px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  .describe .grid_table {
+    display: grid;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: 90%;
+    margin: 0px;
+    margin-left: 10px;
+    grid-template-areas: "head" "first" "second" "third" "four" "five" "six";
+    row-gap: 0px;
+  }
+
+  .content .klex {
+    margin-top: 40px;
+  }
+  .content .klex .grafic #group {
+    margin-left: 0px;
+    margin-top: -40px;
+  }
+  .content .klex .grafic #ddd {
+    position: absolute;
+    left: 0px;
+  }
+  .content .klex .grafic .solo, .content .klex .grafic .arrow {
+    margin-left: 20px;
+  }
+
+  .create {
+    margin-top: 80px;
+  }
+  .create .create_box .poster {
+    margin-top: 20px;
+    width: 320px;
+    height: 280px;
+    background-size: contain;
+  }
+
+  .simple .simple_box {
+    margin-top: -380px;
+    text-align: left;
+  }
+  .simple .simple_box h1 {
+    font-size: 36px;
+  }
+  .simple .simple_box .numbers {
+    display: grid;
+    grid-template-rows: 120px 150px 150px;
+    grid-template-columns: 80%;
+    grid-template-areas: "first" "second" "third";
+  }
+
+  .invest .klex {
+    margin-top: 0px;
+  }
+  .invest .klex .second {
+    margin-left: 20px;
+  }
+  .invest .klex .second .sign_out {
+    margin-left: 20px;
+  }
+  .invest .klex .grafic #month {
+    margin-left: 35px;
+  }
+  .invest .klex .grafic #arrow {
+    margin-left: 0px;
+    visibility: visible;
+  }
+  .invest .klex .grafic .solo {
+    display: none;
+  }
+
+  .help .klex .second .text {
+    margin-top: -500px;
+  }
+  .help .klex .second .text h1 {
+    text-align: right;
+  }
+
+  .block .container .blue-block {
+    width: 100%;
+    height: auto;
+  }
+  .block .container .blue-block .your_name #fname {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+  }
+  .block .container .blue-block .your_name #send {
+    width: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .general_footer {
+    padding-bottom: 0px;
+  }
+  .general_footer .general-footer_block_with_back .blocks_bottom {
+    display: none;
+  }
+  .general_footer .general-footer_block_with_back .ARKshakir #footer {
+    margin-left: 0px;
+  }
+  .general_footer .general-footer_block_with_back .ARKshakir .social_icons {
+    margin-right: 0px;
+  }
+  .general_footer .general-footer_block_with_back .ccc {
+    gap: 0px;
+  }
+}/*# sourceMappingURL=media.css.map */
